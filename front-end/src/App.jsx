@@ -1,12 +1,16 @@
-import React from 'react'
+
+import React from "react";
+import "./App.css";
 import Game from './game'
 
-function App(){
+function App() {
   return (
-    <div>
-      <Game/>
+    <div className="app">
+      <main className="container">
+        <Game/>
+      </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
